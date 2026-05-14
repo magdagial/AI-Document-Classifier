@@ -48,12 +48,12 @@ To get this project running, you need to configure your credentials and local as
 - **1. Clone the Repository**:
   ```bash
   git clone [https://github.com/YOUR_USERNAME/AI-Document-Classifier.git](https://github.com/YOUR_USERNAME/AI-Document-Classifier.git)
-  cd AI-Document-Classifier```
+  cd AI-Document-Classifier ```
 
 - **2. Restore and Build**:
   ```bash
 dotnet restore
-dotnet build```
+dotnet build ```
 
 - **3. Execute the Application**:
 ```bash
