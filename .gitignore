@@ -1,0 +1,11 @@
+# Ignore build folders
+bin/
+obj/
+
+# Ignore compiled models and data
+*.onnx
+*.csv
+Done/
+
+# Ignore User settings
+.vscode/
