@@ -20,7 +20,7 @@ A robust C# console application designed for high-accuracy document classificati
 ├── labels.txt           # REQUIRED: Plain text list of category labels
 ├── model.onnx           # REQUIRED: Pre-trained ONNX model for local inference
 └── README.md            # Documentation and setup guide
-
+```
 ---
 
 ## ⚙️ Configuration & Setup
@@ -30,7 +30,7 @@ To get this project running, you need to configure your credentials and local as
   ```csharp
   const string azureEndpoint = "https://YOUR_RESOURCE_[NAME.cognitiveservices.azure.com/](https://NAME.cognitiveservices.azure.com/)";
   const string azureKey = "YOUR_SECRET_API_KEY";
-  const string azureModelId = "YOUR_CUSTOM_CLASSIFICATION_MODEL_ID";
+  const string azureModelId = "YOUR_CUSTOM_CLASSIFICATION_MODEL_ID";```
 
 - **Local ONNX Model Setup**: Ensure the `model.onnx` file is present in the application's execution directory (e.g., `bin/Debug/net8.0/`).
 
@@ -48,16 +48,16 @@ To get this project running, you need to configure your credentials and local as
 - **1. Clone the Repository**:
   ```bash
   git clone [https://github.com/YOUR_USERNAME/AI-Document-Classifier.git](https://github.com/YOUR_USERNAME/AI-Document-Classifier.git)
-  cd AI-Document-Classifier
+  cd AI-Document-Classifier```
 
 - **2. Restore and Build**:
   ```bash
 dotnet restore
-dotnet build
+dotnet build```
 
 - **3. Execute the Application**:
 ```bash
-dotnet run
+dotnet run```
 
 - **4. Interactive Usage**: A folder browser dialog will open. Select the root folder containing your images. The application will process all images and output the results to `results_summary.csv`.
 
