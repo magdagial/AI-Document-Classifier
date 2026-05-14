@@ -55,7 +55,6 @@ To get this project running, you need to configure your credentials and local as
   dotnet restore
   dotnet build
 
-```text
 - **3. Execute the Application**:
   ```bash
   dotnet run
